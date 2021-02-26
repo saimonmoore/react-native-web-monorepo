@@ -12,9 +12,12 @@
     "xcode": "xed ios"
   },
   "dependencies": {
+    "@eva-design/eva": "^2.0.0",
+    "@ui-kitten/components": "^5.0.0",
     "components": "*",
     "react": "17.0.1",
-    "react-native": "0.63.3"
+    "react-native": "0.63.3",
+    "react-native-svg": "^12.1.0"
   },
   "devDependencies": {
     "@testing-library/jest-native": "3.4.3",
