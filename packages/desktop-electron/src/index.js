@@ -1,6 +1,6 @@
-import electron from 'electron'
-import path from 'path'
-import isDev from 'electron-is-dev'
+const electron = require('electron')
+const path = require('path')
+const isDev = require('electron-is-dev')
 
 const { app } = electron
 const { BrowserWindow } = electron
@@ -11,8 +11,8 @@ function createWindow() {
   mainWindow = new BrowserWindow({ width: 900, height: 680 })
   mainWindow.loadURL(
     isDev
-      ? 'http://localhost:8080/'
-      : `file://${path.join(__dirname, '../../web/build/index.html')}`,
+      ? 'http://localhost:3000/'
+      : `file://${path.join(__dirname, '../../web-cra/build/index.html')}`,
   )
   mainWindow.on('closed', () => {
     mainWindow = null
