@@ -1,8 +1,9 @@
 {
   "name": "web-cra",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "components": "*",
     "react": "17.0.1",
     "react-art": "17.0.1",
     "react-dom": "17.0.1",

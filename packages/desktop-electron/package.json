@@ -1,5 +1,5 @@
 {
-  "name": "desktop",
+  "name": "desktop-electron",
   "version": "0.0.1",
   "private": false,
   "main": "src/index.js",
@@ -13,6 +13,7 @@
     "start": "electron ./src/index.js"
   },
   "dependencies": {
+    "components": "*",
     "electron": "^11.3.0",
     "electron-is-dev": "^1.2.0"
   }

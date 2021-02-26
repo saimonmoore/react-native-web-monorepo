@@ -1,7 +1,7 @@
 {
   "name": "mobile",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "android": "concurrently \"yarn start\" \"react-native run-android --no-packager\"",
     "ios": "concurrently \"yarn start\" \"react-native run-ios --no-packager\"",
@@ -12,7 +12,7 @@
     "xcode": "xed ios"
   },
   "dependencies": {
-    "components": "0.0.1",
+    "components": "*",
     "react": "17.0.1",
     "react-native": "0.63.3"
   },
